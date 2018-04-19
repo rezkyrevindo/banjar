@@ -1,28 +1,8 @@
 
-		<!-- fh5co-blog-section -->
-		<footer>
-			<div id="footer">
-				<div class="container">
-					<div class="col-md-6 text-center">
-						<h3>Contact</h3>
-						<p><i class="fab fa-whatsapp"></i> RookieDreamer : 0853-7571-7855</p>							
-					
-					</div>
-					<div class="col-md-6 text-center">								
-						<p>Copyright 2018 
-								<a href="#">Banjar</a>. All Rights Reserved. 
-								<br>Made with <i class="fas fa-heart"></i> by 
-								<a href="#" target="_blank">RookieDreamer</a></p>
-						
-					</div>
-					
-				</div>
-			</div>
-		</footer>
 	
 
-		<a href="#fh5co-header" class="act-btn" alt = "Back to Top">
-		    <i class="fas fa-chevron-up"></i>
+		<a href="<?php echo config_item('base_url') ?>" class="act-btn" alt = "Back to Main Menu">
+		    <i class="fas fa-chevron-left"></i>
 		</a>
 
 	<!-- jQuery -->

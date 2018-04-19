@@ -35,14 +35,14 @@ font-family: "sego";
 
 
 a {
-  color: #FCC72C;
+  color: #E2474B;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none !important;
-  color: #FCC72C !important;
+  color: #E2474B !important;
 }
 
 p, ul, ol {
@@ -65,17 +65,17 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #FCC72C;
+  background: #E2474B;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #FCC72C;
+  background: #E2474B;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #FCC72C;
+  background: #E2474B;
 }
 
 #fh5co-header {
@@ -348,7 +348,7 @@ figure {
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
-  color: #FCC72C !important;
+  color: #E2474B !important;
 }
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
@@ -467,7 +467,7 @@ figure {
   background: none;
 }
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
-  color: #FCC72C !important;
+  color: #E2474B !important;
 }
 
 #fh5co-work-section,
@@ -503,7 +503,7 @@ figure {
   width: 100px;
   margin-left: -50px;
   height: 2px;
-  background: #FCC72C;
+  background: #E2474B;
 }
 .heading-section h3 {
   font-size: 30px;
@@ -577,7 +577,7 @@ figure {
 }
 .services span i {
   font-size: 50px;
-  color: #fcc72c;
+  color: #E2474B;
 }
 .services h3 {
   font-size: 20px;
@@ -630,7 +630,7 @@ figure {
 }
 #fh5co-services .fh5co-icon i {
   font-size: 200px;
-  color: #FCC72C;
+  color: #E2474B;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services .fh5co-icon i {
@@ -774,7 +774,7 @@ figure {
   color: rgba(0, 0, 0, 0.3);
 }
 .fh5co-blog .image-popup span.comment a i {
-  color: #FCC72C;
+  color: #E2474B;
   padding-left: 7px;
 }
 .fh5co-blog .image-popup h3 {
@@ -817,7 +817,7 @@ figure {
 
 .fh5co-social-icons > a {
   padding: 4px 10px;
-  color: #FCC72C;
+  color: #E2474B;
 }
 .fh5co-social-icons > a i {
   font-size: 26px;
@@ -828,19 +828,28 @@ figure {
 }
 
 #footer {
-  background: #222831;
+  background: #E2474B;
   padding: 60px 0 40px;
 }
 #footer p {
-  color: rgba(255, 255, 255, 0.3);
+
+  color: #fff;
   letter-spacing: 1px;
   font-size: 14px;
-  text-transform: uppercase;
+
 }
 #footer p a {
   color: rgba(255, 255, 255, 0.5);
 }
+#footer p a:hover {
+  color: #fff;
+}
 
+#footer h3{
+  color : #fff;
+  margin-bottom: 5px;
+
+}
 .btn {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -862,7 +871,7 @@ figure {
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #FCC72C;
+  background: #E2474B;
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
@@ -935,14 +944,14 @@ figure {
   color: rgba(255, 255, 255, 0.4);
 }
 #offcanvas-menu ul li a:hover {
-  color: #FCC72C;
+  color: #E2474B;
 }
 #offcanvas-menu ul li > .fh5co-sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #FCC72C;
+  color: #E2474B;
 }
 #offcanvas-menu ul .fh5co-sub-menu {
   display: block !important;
@@ -1147,4 +1156,99 @@ figure {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
+.act-btn{
+            background:#E2474B;
+            display: block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            text-decoration: none;
+            transition: ease all 0.3s;
+            position: fixed;
+            right: 30px;
+            bottom:30px;
+        }
+.act-btn:hover{background: #E2474B}
+
+@CHARSET "UTF-8";
+/*
+over-ride "Weak" message, show font in dark grey
+*/
+
+.progress-bar {
+    color: #333;
+} 
+
+/*
+Reference:
+http://www.bootstrapzen.com/item/135/simple-login-form-logo/
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+    .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+
+body {
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+  margin-top: 60px;
+}
+
+form[role=login] {
+  color: #5d5d5d;
+  background: #f2f2f2;
+  padding: 26px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+  form[role=login] img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+  form[role=login] input,
+  form[role=login] button {
+    font-size: 18px;
+    margin: 16px 0;
+  }
+  form[role=login] > div {
+    text-align: center;
+  }
+  
+.form-links {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 50px;
+}
+  .form-links a {
+    color: #fff;
+  }
 /*# sourceMappingURL=style.css.map */
