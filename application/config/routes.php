@@ -3,7 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['login'] = 'login';
 $route['register'] = 'register';
-
+$route['dash'] = 'dash';
+$route['permohonan-bantuan'] = "permohonan_b";
 
 
 

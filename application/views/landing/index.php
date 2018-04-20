@@ -30,11 +30,13 @@
 					<span class="sego" style="font-size:20px;margin-top:10px;">MENYAMARATAKAN PENDIDIKAN DENGAN GOTONG ROYONG</span>
 			
 					<span><a class="btn btn-primary" href="<?php echo config_item('base_url') ?>register">DAFTAR</a> <a class="btn btn-primary" href="<?php echo config_item('base_url') ?>login">Masuk</a></span>
-					<span style="font-size:15px;margin-top:0px;">Anda murid? <a href="#" style="color : #E2474B;">Klik disini</a></span>
+					<span style="font-size:15px;margin-top:0px;">Anda murid? <a href="<?php echo config_item('base_url') ?>dash" style="color : #E2474B;">Klik disini</a></span>
 				</div>
 			</div>
 
 		</div>
+
+		
 		<!-- end:header-top -->
 		<div id="fh5co-work-section">
 			<div class="container">

@@ -11,7 +11,7 @@
     <div class="col-md-4">
       <section class="login-form">
         <form method="post" action="#" role="login" style="background : rgba(0,0,0,0.3)">
-          <img src="<?php echo config_item('base_url') ?>assets/images/ICON.png" class="img-responsive" style="width:150px; height:100px;">
+          <img src="<?php echo config_item('base_url') ?>assets/images/ICON.png" class="img-responsive" style="width:120px; height:100px;">
           <input type="email" name="email" placeholder="Email" required class="form-control input-lg"  />
           
           <input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" />
